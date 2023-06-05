@@ -2,7 +2,7 @@ body{
     font-family: Avenir, Heveltica, sans-serif;
 }
 
-input {
+.cell-input {
     text-align: center;
     font-size: 30px;
     width:3.6vw;
@@ -72,6 +72,20 @@ li span {
     padding: 2em 5em;
     font-size: 120%;
     order: -1;
+}
+
+#grids-container { 
+    display: flex;
+    flex-direction: row;
+    column-gap: 10rem;
+}
+
+#startingStateInputContainer {
+    margin-bottom: 0.4rem;
+}
+
+#stateDisplay {
+    margin-bottom: 0.4rem;
 }
 
 @supports (display:grid) {
